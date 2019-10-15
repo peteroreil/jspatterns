@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "factory": "node --experimental-modules ./factory/index.mjs",
-    "proxy": "node --experimental-modules ./proxy/index.mjs"
+    "proxy": "node --experimental-modules ./proxy/index.mjs",
+    "decorator": "node --experimental-modules ./decorator/index.mjs"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.7.1"
+  }
 }
