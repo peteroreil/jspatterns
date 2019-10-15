@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "factory": "node --experimental-modules ./factory/index.mjs"
+    "factory": "node --experimental-modules ./factory/index.mjs",
+    "proxy": "node --experimental-modules ./proxy/index.mjs"
   },
   "author": "",
   "license": "ISC"
